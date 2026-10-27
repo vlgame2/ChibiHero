@@ -1,6 +1,10 @@
 # Đi buôn V5 — khôi phục dắt thú, lại cạnh thú bị stun, thay thú lúc chết
 
-[Tải bản vá V5 thử nghiệm](./BAN_VA_DI_BUON_V5_FIX_DAN_BO.zip)
+> **TẠM NGỪNG SỬ DỤNG V5 — CHƯA XÁC MINH AN TOÀN.** Người dùng báo Windows Defender phát hiện `AppManager.exe` trong ZIP là `Trojan:Win32/Wacatac.H!ml`, trạng thái xử lý chưa hoàn tất. Chưa xác định đây là báo nhầm hay mã độc thực sự. Không tắt bảo vệ, thêm ngoại lệ, Allow/Restore hoặc ép chạy để dùng bản này.
+>
+> Các kiểm tra chức năng/bytecode và SHA-256 bên dưới không phải chứng nhận sạch mã độc. Mẫu tải từ GitHub khớp gói đã đóng; bản thực thi gốc bị làm rối mã chưa được kiểm tra toàn bộ. Chưa có kết quả quét Defender độc lập để gỡ cảnh báo. Bản V5 này không được khuyến nghị sử dụng trong lúc chờ đánh giá.
+
+Gói V5 được giữ để đối chiếu; không khuyến nghị tải hoặc chạy.
 
 - Bỏ phần giới hạn/cắt đường đi mới của V4 đối với thú khỏe, khôi phục cách dắt thú bình thường vốn có. Đã tái hiện lỗi V4 xóa đoạn đang đi do hiểu sai chỉ số đường.
 - Chỉ khi thú bị **trói, choáng, ru ngủ hoặc đóng băng**, nhân vật còn sống mới đi bộ lại sát cạnh (khoảng 1 ô). Nhánh thay thú ít máu đợi tới cạnh rồi mới gửi yêu cầu. Khi hết toàn bộ hiệu ứng thì kéo tiếp.
